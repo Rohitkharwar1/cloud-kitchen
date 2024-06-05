@@ -1,0 +1,12 @@
+.footer-title {
+  font-weight: bold;
+  color: white; /* Ensuring text is visible against black background */
+}
+
+.link {
+  color: white; /* Ensuring link text is visible against black background */
+}
+
+.link-hover:hover {
+  color: #ddd; /* Lighter shade for hover effect */
+}

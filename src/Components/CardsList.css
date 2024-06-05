@@ -1,0 +1,27 @@
+/* src/Components/CardsList.css */
+.cards-container {
+  display: flex;
+  justify-content: space-between; /* Ensures equal spacing between cards */
+  width: 100%; /* Ensures the container takes the full width of its parent */
+  flex-wrap: nowrap; /* Prevents wrapping of cards to a new line */
+  flex-wrap: nowrap; /* Prevents wrapping of cards to a new line */
+
+  contain: contain;
+}
+
+.card {
+  flex: 1; /* Ensures each card takes equal space */
+  margin: 0 8px; /* Adds some space between cards */
+  max-width: calc(
+    33.33% - 16px
+  ); /* Ensures three cards fit into one row without wrapping */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.card:first-child {
+  margin-left: 0; /* No left margin for the first card */
+}
+
+.card:last-child {
+  margin-right: 0; /* No right margin for the last card */
+}
